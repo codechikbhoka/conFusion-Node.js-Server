@@ -7,7 +7,7 @@
 6 silly lifecycle rest-server@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle rest-server@0.0.0~start: rest-server@0.0.0
 8 verbose lifecycle rest-server@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle rest-server@0.0.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/home/gomchik/Work/rest-server-passport/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle rest-server@0.0.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/home/gomchik/Work/rest-server-passport/node_modules/.bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 10 verbose lifecycle rest-server@0.0.0~start: CWD: /home/gomchik/Work/rest-server-passport
 11 silly lifecycle rest-server@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle rest-server@0.0.0~start: Returned: code: 1  signal: null

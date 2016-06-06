@@ -29,7 +29,9 @@ var app = express();
 
 // Secure traffic only
 // app.all('*', function(req, res, next){
-//     console.log('req start: ',req.secure, req.hostname, req.url, app.get('port'));
+	
+//   console.log('req secure : ',req.secure, req.hostname, req.url, app.get('port'));
+  
 //   if (req.secure) {
 //     return next();
 //   };

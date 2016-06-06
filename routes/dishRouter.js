@@ -39,7 +39,7 @@ dishRouter.route('/')
 });
 
 dishRouter.route('/:dishId')
-.get(Verify.verifyOrdinaryUser, function (req, res, next) {
+.get(function (req, res, next) {
     Dishes.findById(req.params.dishId)
         .populate('comments.postedBy')
         .exec(function (err, dish) {
